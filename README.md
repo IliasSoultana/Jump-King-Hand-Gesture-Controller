@@ -177,8 +177,22 @@ Jump-King-Hand-Gesture-Controller/
 ├── video_demo.py            # Video processing demo
 ├── camera_test.py           # Camera detection utility
 ├── comprehensive_test.py    # Full system testing
+├── TECHNICAL_DEEP_DIVE.md   # Comprehensive development analysis
 └── README.md                # Documentation
 ```
+
+## 📖 Technical Documentation
+
+For detailed technical analysis, development process insights, and code deep-dive explanations, see:
+
+**[TECHNICAL_DEEP_DIVE.md](TECHNICAL_DEEP_DIVE.md)** - Complete development journey including:
+- Architecture design decisions and rationale
+- Computer vision pipeline implementation details  
+- Machine learning approach and algorithm selection
+- Performance optimization strategies and results
+- Real-time processing challenges and solutions
+- Testing methodology and validation approach
+- Lessons learned and future improvement roadmap
 
 ---
 
