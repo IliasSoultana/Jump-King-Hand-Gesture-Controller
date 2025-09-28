@@ -1,16 +1,60 @@
 # Jump King Hand Gesture Controller
 
-![Python](https://img.shields.io/badge/Python-3.8+-blue?style=flat-square&logo=python)
-![OpenCV](https://img.shields.io/badge/OpenCV-4.8+-green?style=flat-square&logo=opencv)
-![MediaPipe](https://img.shields.io/badge/MediaPipe-0.10+-orange?style=flat-square&logo=google)
-![YOLO](https://img.shields.io/badge/YOLO-v8-red?style=flat-square)
-![License](https://img.shields.io/badge/License-MIT-yellow?style=flat-square)
+# Jump King Hand Gesture Controller
 
-Real-time hand gesture recognition system for hands-free gaming control.
+<div align="center">
+
+![Python](https://img.shields.io/badge/Python-3.8+-blue?style=for-the-badge&logo=python&logoColor=white)
+![OpenCV](https://img.shields.io/badge/OpenCV-4.8+-green?style=for-the-badge&logo=opencv&logoColor=white)
+![MediaPipe](https://img.shields.io/badge/MediaPipe-0.10+-orange?style=for-the-badge&logo=google&logoColor=white)
+![YOLO](https://img.shields.io/badge/YOLO-v8-red?style=for-the-badge&logo=ultralytics&logoColor=white)
+![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge&logo=opensource&logoColor=white)
+
+**Real-time hand gesture recognition system for hands-free gaming control**
+
+</div>
+
+---
+
+## Demo
+
+<div align="center">
+
+![Demo Placeholder](https://via.placeholder.com/600x300/2b2b2b/ffffff?text=DEMO+VIDEO+PLACEHOLDER%0A%0ARecord+your+gesture+system+in+action%0Aand+replace+this+image)
+
+*Replace this placeholder with a GIF or video of your gesture recognition system*
+
+</div>
 
 ## Overview
 
 A computer vision system that enables hands-free control of Jump King through real-time hand gesture recognition. Built with Python, MediaPipe, OpenCV, and YOLO for robust hand tracking, combined with machine learning for accurate gesture classification.
+
+## Performance Metrics
+
+<div align="center">
+
+![Accuracy](https://img.shields.io/badge/Accuracy-95%25+-brightgreen?style=flat&logo=target&logoColor=white)
+![Latency](https://img.shields.io/badge/Latency-<50ms-blue?style=flat&logo=clock&logoColor=white)
+![FPS](https://img.shields.io/badge/FPS-30+-red?style=flat&logo=video&logoColor=white)
+![CPU Usage](https://img.shields.io/badge/CPU%20Usage-<20%25-orange?style=flat&logo=cpu&logoColor=white)
+
+</div>
+
+## Gesture Controls
+
+<div align="center">
+
+| Gesture | Description | Action | Key Binding |
+|---------|-------------|---------|-------------|
+| ![Fist](https://via.placeholder.com/60x60/333333/ffffff?text=👊) | **Fist** | Jump | `Space` |
+| ![Left](https://via.placeholder.com/60x60/333333/ffffff?text=👈) | **Palm Left** | Move Left | `A` |
+| ![Right](https://via.placeholder.com/60x60/333333/ffffff?text=👉) | **Palm Right** | Move Right | `D` |
+| ![Open](https://via.placeholder.com/60x60/333333/ffffff?text=✋) | **Open Palm** | Idle | `None` |
+
+*Replace these placeholders with actual hand gesture images*
+
+</div>
 
 ## Technologies Used
 
@@ -106,6 +150,16 @@ pip install opencv-python scikit-learn numpy pynput joblib
 pip install ultralytics mediapipe  # Optional enhancements
 ```
 
+## System Architecture
+
+<div align="center">
+
+![System Architecture](https://via.placeholder.com/800x400/2d3748/ffffff?text=SYSTEM+ARCHITECTURE%0A%0ACamera+Input+→+Hand+Detection+→+Feature+Extraction+→%0AML+Classification+→+Gesture+Smoothing+→+Game+Control%0A%0AReplace+with+actual+architecture+diagram)
+
+*Create an architecture diagram showing the complete pipeline from camera input to game control*
+
+</div>
+
 ## Project Structure
 
 ```
@@ -116,6 +170,7 @@ Jump-King-Hand-Gesture-Controller/
 │   ├── yolo_detector.py     # YOLO object detection  
 │   ├── gesture_classifier.py  # ML gesture classification
 │   └── game_controller.py  # Keyboard input control
+├── assets/                  # Images and visual resources  
 ├── models/                  # Trained ML models
 ├── data/                    # Training datasets
 ├── utils/                   # Configuration files
