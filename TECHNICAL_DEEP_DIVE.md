@@ -30,7 +30,7 @@ The initial challenge was clear: create a hands-free gaming control system that 
 - **Robust detection** across different lighting conditions
 - **Fallback mechanisms** for reliability
 
-### Design Philosophy
+### Project Design
 
 From the beginning, we adopted a **multi-layered approach** with redundancy built-in. The philosophy was:
 
